@@ -45,3 +45,7 @@ npm install @tanstack/react-query
 npm install react-icons
 
 npm start
+```
+## Home Page
+
+https://i.imgur.com/WHFYfgB.jpeg
