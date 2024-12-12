@@ -36,5 +36,12 @@ git clone https://github.com/aminerhayem123/React_Web_Developer_AmineRhayem.git
 cd React_Web_Developer_AmineRhayem 
 
 npm install
+npm install lucide-react
+npm install tailwindcss tailwindcss-animate
+npm install typescript @types/react @types/react-dom
+npm install keen-slider
+npm install axios
+npm install @tanstack/react-query
+npm install react-icons
 
 npm start
