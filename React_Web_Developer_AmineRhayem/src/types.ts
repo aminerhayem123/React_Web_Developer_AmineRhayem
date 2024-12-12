@@ -1,4 +1,4 @@
-// types.ts
+// types.ts or at the top of ProductList.tsx
 export interface Product {
   id: number;
   name: string;
@@ -7,6 +7,6 @@ export interface Product {
   colors: string[];
   sizes: string[];
   description: string;
-  category: string; // Added category field
-  stock: number; // Added stock field (optional)
+  stock: number;
+  category: string;
 }

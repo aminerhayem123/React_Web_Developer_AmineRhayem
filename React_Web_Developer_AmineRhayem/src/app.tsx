@@ -11,7 +11,7 @@ function App() {
   const filteredProducts = selectedCategory
     ? products.filter((product) => product.category === selectedCategory)
     : products;
-
+  
   return (
     <div className="min-h-screen bg-black text-white">
 

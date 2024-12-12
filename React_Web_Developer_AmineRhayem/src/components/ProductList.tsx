@@ -1,14 +1,12 @@
 // ProductList.tsx
 import { ProductCard } from './ProductCard';
-import useProducts from './useProducts';
+import { Product } from '../types'; // Assuming Product type is defined in a types file
 
-const ProductList = () => {
-  const { products, loading } = useProducts(); // Use the hook to get products
+interface ProductListProps {
+  products: Product[]; // Accepting an array of products as a prop
+}
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
+const ProductList = ({ products }: ProductListProps) => {
   return (
     <div>
       <div className="product-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
