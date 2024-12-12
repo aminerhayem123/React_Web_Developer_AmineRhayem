@@ -1,4 +1,3 @@
-// ProductCard.tsx
 import { SizePicker } from './SizePicker'; // Assuming you have a SizePicker component
 import { useState } from 'react';
 
@@ -11,7 +10,7 @@ interface ProductCardProps {
     description: string;
     sizes: string[];
     colors: string[];
-    stock: number;
+    stock: number; 
   };
 }
 
@@ -21,7 +20,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <div className="bg-black border-2 border-white shadow-lg rounded-lg overflow-hidden">
       {/* Image Carousel */}
-      <div className="relative w-full h-60 group">
+      <div className="relative w-full h-80 group"> {/* Reduced height to make image smaller */}
         {/* Images */}
         {product.images.map((image, index) => (
           <img
