@@ -48,4 +48,4 @@ npm start
 ```
 ## Home Page
 
-https://i.imgur.com/WHFYfgB.jpeg
+![Alt text](https://i.imgur.com/WHFYfgB.jpeg)
