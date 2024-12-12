@@ -1,3 +1,4 @@
+// ProductCard.tsx
 import { SizePicker } from './SizePicker'; // Assuming you have a SizePicker component
 import { useState } from 'react';
 

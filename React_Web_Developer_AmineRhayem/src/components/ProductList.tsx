@@ -1,6 +1,6 @@
 // ProductList.tsx
 import { ProductCard } from './ProductCard';
-import useProducts from './useProducts'; // Import the updated useProducts hook
+import useProducts from './useProducts';
 
 const ProductList = () => {
   const { products, loading } = useProducts(); // Use the hook to get products
