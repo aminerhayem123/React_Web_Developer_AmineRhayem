@@ -49,3 +49,8 @@ npm start
 ## Home Page
 
 ![Alt text](https://i.imgur.com/WHFYfgB.jpeg)
+
+## fetch per categorie
+
+![Alt text](https://i.imgur.com/Jb3u02O.png)
+![Alt text](https://i.imgur.com/zuPMsy5.png)
